@@ -178,10 +178,6 @@ input:focus{
   -moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
 }
 
-input:invalid{
-  border: 1px rgb(163, 40, 40) solid;
-}
-
 form p{
   width: 100%;
 }
