@@ -98,12 +98,13 @@ h1, h2, h3, h4, h5, h6 {
  width: 100%;
  text-align: center;
  bottom: 8px;
+ font-size: 0.9rem;
+ font-weight: 200;
  color: white;
 }
 
 #credit-caption a:link{
   color: inherit;
-  font-size: 0.9rem;
 }
 
 /* Text */
@@ -120,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin-left: 48px;
   margin-right: 30%;
+  margin-bottom: 32px;
   color: rgba(0,0,0,90%);
 }
 
@@ -144,7 +146,7 @@ form h2{
   -moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
 }
 
-#form-inputs h2{
+#form-inputs > h2{
   color: rgba(0,0,0,80%);
 }
 
@@ -163,7 +165,7 @@ label{
 }
 
 input{
-  width: 100%;
+  width: 80%;
   border: 1px rgba(0, 0, 0, 0.15) solid;
   padding: 4px 8px;
   border-radius: 4px;
