@@ -140,6 +140,7 @@ form h2{
   width: 100%;
   padding: 32px 30% 32px 48px;
   margin-top: 64px;
+  margin-bottom: 32px;
   background-color: white;
   box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
   -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
@@ -190,8 +191,8 @@ button[type="submit"]{
   appearance: none;
   -webkit-appearance: none;
   padding: 10px 48px;
-  margin-top: 32px;
   margin-left: 48px;
+  margin-bottom: 32px;
   color: white;
   font-weight: 600;
   border-radius: 8px;
@@ -201,7 +202,6 @@ button[type="submit"]{
 
 p#login{
   font-size: 1rem;
-  margin-top: 32px;
   margin-left: 48px;
   color: rgba(0,0,0,90%);
 }
