@@ -203,6 +203,7 @@ p#login{
   font-size: 1rem;
   margin-top: 32px;
   margin-left: 48px;
+  color: rgba(0,0,0,90%);
 }
 
 p#login a{
