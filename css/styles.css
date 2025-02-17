@@ -3,12 +3,12 @@
   src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf");
 }
 
-:root{
+/* Uses joshwcomeau CSS reset */
+/* Global */
+:root {
   --primary: #596D48;
 }
 
-/* Uses joshwcomeau CSS reset */
-/* Global */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -53,21 +53,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Hero */
-#hero-container{
+#hero-container {
   position: relative;
   float: left;
   width: 40%;
   height: 100%;
 }
 
-#hero-container img{
+#hero-container img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
   filter: brightness(0.9);
 }
 
-#logo-caption{
+#logo-caption {
   position: absolute;
   top: 25%;
   width: 100%;
@@ -75,25 +75,25 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0,0,0,60%);
 }
 
-#logo{
+#logo {
   display: flex;
   align-items: center;
   width: fit-content;
   margin: 0 auto;
 }
 
-#logo img{
+#logo img {
   height: 112px;
   object-fit: fill;
 }
 
-#logo p{
+#logo p {
   color: white;
   font-family: "NorseBold", sans-serif;
   font-size: 5rem;
 }
 
-#credit-caption{
+#image-credit {
  position: absolute;
  width: 100%;
  text-align: center;
@@ -103,12 +103,13 @@ h1, h2, h3, h4, h5, h6 {
  color: white;
 }
 
-#credit-caption a:link{
+#image-credit a:link,
+#image-credit a:visited {
   color: inherit;
 }
 
 /* Text */
-#text-container{
+#text-container {
   float: right;
   width: 60%;
   height: 100vh;
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #F9FAFB;
 }
 
-#text-container > p{
+#text-container > p {
   font-size: 1.4rem;
   font-weight: 600;
   margin-left: 48px;
@@ -125,16 +126,16 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0,0,0,90%);
 }
 
-form h2{
+form h2 {
   margin-bottom: 16px;
 }
 
-form h2{
+form h2 {
   width: 100%;
   font-weight: 600;
 }
 
-#form-inputs{
+#form-inputs {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -147,17 +148,17 @@ form h2{
   -moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
 }
 
-#form-inputs > h2{
+#form-inputs > h2 {
   color: rgba(0,0,0,80%);
 }
 
-.form-item{
+.form-item {
   flex: 1 0 calc(50% - 16px);
   margin-right: 16px;
   margin-bottom: 16px;
 }
 
-label{
+label {
   text-transform: uppercase;
   font-size: 0.9rem;
   font-weight: 500;
@@ -165,29 +166,29 @@ label{
   color: rgba(0,0,0,80%);
 }
 
-input{
+input {
   width: 80%;
   border: 1px rgba(0, 0, 0, 0.15) solid;
   padding: 4px 8px;
   border-radius: 4px;
 }
 
-input:focus{
+input:focus {
   outline: 1px rgb(40, 79, 163)solid;
   box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
   -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
   -moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,15%);
 }
 
-form p{
+form p {
   width: 100%;
 }
 
-.red{
+.red {
   color: red;
 }
 
-button[type="submit"]{
+button[type="submit"] {
   appearance: none;
   -webkit-appearance: none;
   padding: 10px 48px;
@@ -200,13 +201,13 @@ button[type="submit"]{
   background-color: var(--primary);
 }
 
-p#login{
+p#login {
   font-size: 1rem;
   margin-left: 48px;
   color: rgba(0,0,0,90%);
 }
 
-p#login a{
+p#login a {
   color: var(--primary);
   font-weight: bold;
 }
